@@ -1,0 +1,29 @@
+site_name: Notes
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+nav:
+  - Visión general: index.md
+  - Math: math.md
+  - CompTIA: comptia.md
+  - Lógica y Estructuras: logica_estructuras.md
+  - Git y GitHub: git_github.md
+  - Linux CLI: linux_cli.md
+  - Materias UVEG: materias_uveg.md
+
+
