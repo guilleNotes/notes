@@ -2,6 +2,7 @@
 
 # Ruta de Estudio – Bases Sólidas en Sistemas
 
+[plantilla](plantilla.md)
 ---
 
 # Principio base (siempre presente)
@@ -194,3 +195,5 @@ Para que veas que esto está pensado:
 ❌ Lenguajes “de moda”
 
 → irrelevante sin bases
+
+[def]: plantilla.md

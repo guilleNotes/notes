@@ -1,0 +1,670 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="math/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#path" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="." title="Notes" class="md-header__button md-logo" aria-label="Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Visión general
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Notes" class="md-nav__button md-logo" aria-label="Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Notes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visión general
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="math/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Math
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="comptia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CompTIA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logica_estructuras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lógica y Estructuras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="git_github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Git y GitHub
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="linux_cli/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linux CLI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="materias_uveg/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Materias UVEG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="path">/Path</h1>
+<h1 id="ruta-de-estudio-bases-solidas-en-sistemas">Ruta de Estudio – Bases Sólidas en Sistemas</h1>
+<hr />
+<h1 id="principio-base-siempre-presente">Principio base (siempre presente)</h1>
+<p><em>Estas rutas acompañan todo el proceso.</em> <strong>Siempre en paralelo</strong></p>
+<ul>
+<li><a href="math/">Math</a></li>
+<li><a href="comptia/">CompTIA</a></li>
+<li><a href="logica_estructuras/">Lógica y Estructuras de Datos</a></li>
+<li><a href="git_github/">Git y GitHub</a></li>
+<li><a href="linux_cli/">Linux + Terminal (CLI)</a></li>
+</ul>
+<blockquote>
+<p><strong><em>min 4:30 horas al día (30 de git)</em></strong>
+</p>
+</blockquote>
+<hr />
+<h1 id="materias-uveg">Materias UVEG</h1>
+<p><a href="Path/Cuando%20toque%20estudiar%20materias%20clave%203000dd42b4e880e3beb8d4555ddceed0.md">Cuando toque estudiar: materias clave</a></p>
+<hr />
+<h1 id="protocolo-de-estudio-de-alto-rendimiento"><strong>Protocolo de Estudio de Alto Rendimiento</strong></h1>
+<p><a href="https://docs.google.com/document/d/1maovVwwzZygdkUcmkh3q4UEtE-tfATg7lGIK5P8kTkM/edit?usp=sharing"><strong>RECONFIGURANDO LA MENTE MATEMÁTICA</strong></a></p>
+<p><strong>1. Antes de Empezar: Preparación</strong></p>
+<ul>
+<li><strong>Elimina distracciones:</strong> Apaga el móvil. Necesitas atención total para crear conexiones.</li>
+<li><strong>Proceso sobre Producto:</strong> Tu meta es "estudiar 25 minutos intensamente" (técnica Pomodoro), no "terminar el capítulo". Esto reduce la ansiedad y facilita empezar.</li>
+</ul>
+<p><strong>2. Durante la Sesión: Construcción de Bloques (Chunks)</strong></p>
+<ul>
+<li><strong>Entiende la idea básica:</strong> No memorices a ciegas. Asegúrate de entender el <em>qué</em> y el <em>por qué</em> fundamental del concepto para crear un bloque mental sólido.</li>
+<li><strong>Rememoración Activa (Active Recall):</strong> Es la regla de oro. Lee, <strong>cierra el libro y aparta la vista</strong>, e intenta recordar y explicar las ideas principales. Es mucho más potente que releer.</li>
+</ul>
+<p><strong>3. La Práctica: Contexto y Variedad (Tu nueva regla)</strong></p>
+<ul>
+<li><strong>Añade diferentes contextos:</strong> Al estudiar ejercicios de un tema, no te limites a los ejemplos obvios del libro. Busca ejemplos en contextos diferentes o problemas desordenados para verificar si realmente entiendes el concepto.</li>
+<li><strong>Intercala (Interleaving):</strong> Una vez entiendas la idea básica, no hagas bloques de problemas iguales. Mezcla tipos de problemas (ej. uno del tema 4, luego uno del tema 2) para evitar la mecanización y entrenar la flexibilidad mental.<ul>
+<li><strong>Debes empezar a intercalar tan pronto como hayas entendido la idea básica</strong>, es decir, durante la fase de estudio inicial, no solo en el repaso final antes del examen.</li>
+<li>Esto te enseña <strong>cuándo</strong> usar una técnica y, igual de importante, <strong>cuándo no usarla</strong>.</li>
+</ul>
+</li>
+</ul>
+<p><strong>4. Gestión de la Dificultad y Bloqueos</strong></p>
+<ul>
+<li><strong>Empieza por lo difícil, salta a lo fácil:</strong> En exámenes o sesiones duras, ataca lo más difícil primero. Si te bloqueas por 2 minutos, déjalo y pasa a algo fácil. Esto permite que tu "modo difuso" (subconsciente) trabaje en el problema difícil mientras tú haces otra cosa.</li>
+<li><strong>Abraza el error:</strong> La confusión y los errores son señales de que tu cerebro está creciendo. No te frustres, estás "haciendo pesas" mentales.</li>
+</ul>
+<p><strong>5. Consolidación</strong></p>
+<ul>
+<li><strong>Repaso Espaciado:</strong> Extiende el estudio en varios días (un poco cada día) en lugar de una sesión maratónica. El "cemento" neuronal necesita tiempo para secar.</li>
+<li><strong>Dormir es estudiar:</strong> El sueño limpia toxinas y consolida los bloques que creaste durante el día. Sin sueño, el esfuerzo se borra.</li>
+</ul>
+<hr />
+<h2 id="mentalidad-correcta"><strong>Mentalidad correcta</strong></h2>
+<aside>
+💡
+
+🚀 Más allá de las materias, lo que realmente pesa en una entrevista son los **proyectos personales**: tener un CRUD con base de datos, una API sencilla o una aplicación pequeña pero terminada demuestra iniciativa y capacidad práctica. El objetivo no es la perfección, sino contar con algo concreto que mostrar, un trabajo propio que evidencie que sabes llevar una idea hasta el final y que puedes aplicar lo aprendido en un proyecto real.
+
+</aside>
+
+<aside>
+💡
+
+La **mentalidad correcta** para enfrentar entrevistas y el inicio profesional es entender que no necesitas saberlo todo y que nadie sale “listo” de la carrera; lo importante es mostrar disposición para aprender, capacidad de resolver problemas y confianza en que el conocimiento se construye con la práctica y la experiencia, no con la perfección inmediata.
+
+</aside>
+
+<hr />
+<h2 id="como-decidir-area-sin-equivocarte"><strong>¿Cómo decidir área sin equivocarte?</strong></h2>
+<p>Las bases que ya vimos son comunes a software, hardware y soporte; <strong>la diferencia entre áreas aparece después, no antes</strong>. <strong>Si dominas lo esencial, podrás descubrir qué te gusta y no perderás tiempo</strong> si decides cambiar de rumbo. <strong>La regla es clara: primero las bases, luego la especialización.</strong> </p>
+<p>En el camino notarás tus inclinaciones: si disfrutas resolver problemas lógicos, te atraerá el software; si quieres entender cómo funciona la máquina, será hardware; y si te motiva diagnosticar y arreglar rápido, el soporte. </p>
+<p>La estrategia inteligente durante los próximos semestres es mantener las bases y probar mini‑experiencias en cada área —programar algo sencillo, escribir un script, armar o desarmar una PC, configurar una red o ayudar con fallas reales— porque la elección correcta se nota sola. </p>
+<p>Además, es clave entender que <strong>soporte no es un fracaso</strong>: muchos empiezan ahí y luego avanzan hacia administración de sistemas, seguridad, cloud o desarrollo. En tecnología casi nadie inicia en el lugar donde terminará, y cada paso suma experiencia valiosa.</p>
+<hr />
+<h1 id="uveg-organizacion-del-estudio">⏱️ UVEG Organización del estudio</h1>
+<aside>
+💡
+
+La estrategia de estudio más efectiva es organizar cada materia en bloques de 2–3 meses, acompañados de 1–2 materias de relleno para no saturarse, y dedicar el último mes al foco total en la materia principal. Es clave consultar constantemente el [mapa de sistemas](https://drive.google.com/file/d/1ec-9sxfluucztk0ILh0-k3hIlFfcvkWm/view?usp=sharing) para decidir prioridades y mantener claridad en el camino. Por ejemplo, si toca Matemática discreta, se puede combinar con inglés y alguna materia ligera de relleno, y después concentrarse de lleno en la materia fuerte. 
+
+</aside>
+
+<hr />
+<h1 id="todas-las-materias-cada-dia-mezclado">Todas las materias cada día (mezclado)</h1>
+<p>Se basa en <strong><em>interleaved practice</em></strong> y repaso espaciado, que aunque más incómodos al inicio, son mucho más efectivos a largo plazo. Al mezclar materias cada día mantienes todas tus habilidades activas, evitas la ilusión de competencia y fortaleces la memoria duradera. </p>
+<p>El <strong><em>error</em></strong> se convierte en parte del aprendizaje, los descansos permiten que el <strong><em>modo difuso</em></strong> del cerebro trabaje en segundo plano, y alternar entre concentración y relajación previene bloqueos. </p>
+<p>La clave es organizar bien los bloques: matemáticas y lógica en sesiones cortas diarias, CompTIA en bloques diarios o intensivos 2–3 veces por semana, y Git/GitHub en prácticas breves pero constantes. </p>
+<p>Aunque el avance por materia sea más lento, el resultado es más sólido y menos aburrido, ideal si no tienes prisa y estudias temas diversos. </p>
+<aside>
+💡
+
+En resumen, tu horario híbrido de **lunes a viernes**, con todas las materias en bloques cortos, respeta la ***neuroplasticidad*** y maximiza el aprendizaje real. El **sábado** se convierte en una práctica intensiva de cuatro horas donde unes todo lo aprendido: dedicar tiempo a CompTIA con laboratorios o simuladores, ejercitar lógica y estructuras con problemas reales, practicar Git/GitHub con commits y ramas, y cerrar con un repaso práctico de matemáticas. El **domingo**, en cambio, se reserva solo para repaso, lo que permite consolidar sin sobrecargar. Esta combinación de intensidad y constancia asegura progreso sostenido. 
+
+Y si un día estás cansado, la variante flexible te permite rotar materias: quitar matemáticas, doblar Git y lógica, o limitarte al repaso. La clave es mantener la constancia, porque incluso los descansos forman parte activa del aprendizaje.
+
+</aside>
+
+<h2 id="reglas-simples-para-avanzar-sin-prisa"><strong>🎯 Reglas simples para avanzar sin prisa</strong></h2>
+<ul>
+<li>Todo lo práctico <strong>va a GitHub</strong></li>
+<li>Si un tema no queda claro, repítelo otro día</li>
+<li>No avances si no entiendes lo básico</li>
+<li>Celebra avances pequeños 💪</li>
+</ul>
+<hr />
+<h1 id="lo-que-casi-nadie-dice-pero-es-clave">LO QUE CASI NADIE DICE (pero es clave)</h1>
+<h2 id="capacidad-de-leer-y-entender-documentacion"><strong>Capacidad de leer y entender documentación</strong></h2>
+<p>No es broma:</p>
+<blockquote>
+<p>El ingeniero que <strong>sabe leer docs</strong> progresa el doble.
+</p>
+</blockquote>
+<p>Desde temprano debes acostumbrarte a:</p>
+<ul>
+<li>leer documentación oficial</li>
+<li>buscar errores en StackOverflow / GitHub</li>
+<li>entender sin que alguien te lo explique paso a paso</li>
+</ul>
+<p>📌 Aplica a:</p>
+<ul>
+<li>Software → frameworks</li>
+<li>Hardware → datasheets</li>
+<li>Soporte → manuales y logs</li>
+</ul>
+<p>👉 Esto NO se aprende con cursos, se entrena usándolo.</p>
+<hr />
+<h2 id="escritura-tecnica-basica"><strong>Escritura técnica básica</strong></h2>
+<p>No “redacción bonita”.</p>
+<p>Saber escribir:</p>
+<ul>
+<li>qué hiciste</li>
+<li>qué falló</li>
+<li>cómo lo solucionaste</li>
+</ul>
+<p>Ejemplos:</p>
+<ul>
+<li>README en GitHub</li>
+<li>notas técnicas</li>
+<li>tickets</li>
+<li>documentación mínima</li>
+</ul>
+<p>📌 Aplica a TODAS las áreas.</p>
+<p>👉 El ingeniero que <strong>explica bien</strong> vale más.</p>
+<hr />
+<h2 id="cosas-que-deliberadamente-no-puse-y-por-que">⚠️ Cosas que deliberadamente NO puse (y por qué)</h2>
+<p>Para que veas que esto está pensado:</p>
+<p>❌ Frameworks específicos (Spring, React, etc.)</p>
+<p>→ cambian rápido, vienen después</p>
+<p>❌ Certificaciones</p>
+<p>→ útiles después, no ahora</p>
+<p>❌ Cloud avanzado (AWS, Kubernetes)</p>
+<p>→ sin Linux y redes, es humo</p>
+<p>❌ Lenguajes “de moda”</p>
+<p>→ irrelevante sin bases</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": [], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
