@@ -2,6 +2,9 @@ site_name: Notes
 
 theme:
   name: material
+  font:
+    text: Lora           # Letra elegante para lectura larga
+    code: JetBrains Mono # Letra clara para tus bloques de código
   language: es
   palette:
     - scheme: default
@@ -18,6 +21,7 @@ theme:
         name: Cambiar a modo claro
   features:
     - content.code.copy
+  
 
 markdown_extensions:
   - admonition
