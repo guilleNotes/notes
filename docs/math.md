@@ -6,7 +6,7 @@
 
 | ✔ | Bloque | Capítulo | Tema | Prioridad | Ritmo |
 | --- | --- | --- | --- | --- | --- |
-| ⬜ | Aritmética | Cap. 1 | Números reales | Base | 🟢 Rápido |
+| ⬜ | Aritmética | Cap. 1 | [Números reales](math\ari_1_reales.md) | Base | 🟢 Rápido |
 | ⬜ | Aritmética | Cap. 2 | Números enteros | Base | 🟡 Normal |
 | ⬜ | Aritmética | Cap. 3 | Teoría de números | Crítico | 🔴 Práctica |
 | ⬜ | Aritmética | Cap. 4 | Fracciones | Crítico | 🔴 Práctica |
