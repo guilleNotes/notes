@@ -19,7 +19,9 @@ Los **números reales** ($\mathbb{R}$) incluyen todos los números que se pueden
         * $\sqrt{3}, \sqrt{23}, \pi, \dots$
 
 > **Regla de oro:** Números reales = Racionales + Irracionales.
-![Números reales](images\reales.png)
+
+
+![Números reales](\images\reales.png)
 
 ---
 
@@ -55,7 +57,7 @@ Los números se organizan en periodos que se leen siempre de **izquierda a derec
 * **37,643**: Treinta y siete mil seiscientos cuarenta y tres.
 * **52,384,273**: Cincuenta y dos millones trescientos ochenta y cuatro mil doscientos setenta y tres.
 
-![Sistema decimal](images\billon.png)
+![Sistema decimal](\images\billon.png)
 ---
 
 ## 4. Orden de los números reales
@@ -70,7 +72,7 @@ Usamos símbolos para comparar cantidades:
     * Entre negativos, el que está **más lejos de 0** es menor.
     * **Ejemplo:** $-3 < -1$ y $12 > -7$.
 
-![Orden de los números reales](images\recta.png)
+![Orden de los números reales](\images\recta.png)
 ---
 
 ## 5. Comparación de fracciones
@@ -88,7 +90,7 @@ Sea $\frac{a}{b} \text{ y } \frac{c}{d}$, multiplicamos:
 * $5 \cdot 8 = 40$
 * Como $42 > 40$, entonces **$\frac{7}{8} > \frac{5}{6}$**.
 
-![Comparación de fracciones](images\cruzado.png)
+![Comparación de fracciones](\images\cruzado.png)
 ---
 
 ## 6. Valor absoluto y relativo
@@ -99,7 +101,7 @@ Es la distancia de un número al cero. Siempre es **positivo**.
 * $|-3| = 3$
 * $|8| = 8$
 
-![Image of absolute value on a number line](images\absolut.png)
+![Image of absolute value on a number line](\images\absolut.png)
 
 
 ### Valor relativo
